@@ -1,0 +1,14 @@
+{
+  "name": "Arrange Windows",
+  "description": "Arrange windows the way adlr likes",
+  "version": "0.1",
+  "permissions": ["tabs", "system.display"],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_title": "show tab inspector"
+  },
+  "manifest_version": 2
+}
